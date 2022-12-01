@@ -457,7 +457,7 @@ ul li:nth-child(4):hover span {
   border-radius: 1rem;
   font-size: medium;
   color: #030303;
-  padding: 00rem 1rem;
+  padding: 0rem 1rem;
 }
 
 .about-skills-section {
@@ -555,10 +555,10 @@ ul li:nth-child(4):hover span {
   margin-top: 1rem;
 }
 
-.contact {
+.contact-me {
   background-color: #64f4ac;
   border-radius: 1rem;
-  font-size: x-large;
+  font-size: small;
   color: #030303;
   padding: 0rem 1rem;
   font-weight: 700;
@@ -581,6 +581,31 @@ ul li:nth-child(4):hover span {
 .footer > h2 {
   font-weight: 500;
   font-size: 10px;
+}
+
+.contact-info {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  padding-left: 3rem;
+  gap: 5rem;
+  margin: auto;
+  color: #e7e7e7;
+}
+.contact-info h2 {
+  font-size: small;
+}
+
+.contact-info span {
+  font-weight: 100;
+  margin-left: -1.5rem;
+}
+
+.contact-info span2 {
+  font-weight: 100;
+  margin-left: -2rem;
 }
 
 @media screen and (min-width: 1370px) {
@@ -664,6 +689,42 @@ ul li:nth-child(4):hover span {
   }
   .about-skills-section {
     font-size: large;
+  }
+
+  .contact-me {
+    background-color: #64f4ac;
+    border-radius: 1rem;
+    font-size: x-large;
+    color: #030303;
+    padding: 0rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact-info {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 3rem;
+    padding-bottom: 10rem;
+    gap: 15rem;
+    margin-top: 2rem;
+
+    color: #e7e7e7;
+  }
+  .contact-info h2 {
+    font-size: x-large;
+  }
+
+  .contact-info span {
+    font-weight: 100;
+    margin-left: -3rem;
+  }
+  .contact-info span2 {
+    font-weight: 100;
+    margin-left: -5rem;
   }
 }
 
