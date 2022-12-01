@@ -570,6 +570,7 @@ ul li:nth-child(4):hover span {
   justify-content: center;
   display: flex;
   margin-top: 100px;
+  color: white;
 }
 .footer > h2 {
   font-weight: 500;
