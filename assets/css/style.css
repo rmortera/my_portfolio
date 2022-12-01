@@ -68,7 +68,7 @@ body {
   height: 100vh;
   top: 80px;
   left: -100%;
-  padding: 10rem;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -78,7 +78,7 @@ body {
 
 .nav-item {
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #e7e7e7;
   text-decoration: none;
   transition: color 0.5s;
