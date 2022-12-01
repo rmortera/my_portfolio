@@ -309,8 +309,8 @@ ul li:nth-child(4):hover span {
 }
 .experience-circle {
   background-color: rgb(53, 53, 53);
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -322,8 +322,8 @@ ul li:nth-child(4):hover span {
 
 .experience-circle-maya {
   background-color: rgb(53, 53, 53);
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -354,7 +354,7 @@ ul li:nth-child(4):hover span {
 .education-container {
   width: 95%;
   display: flex;
-  gap: 3rem;
+gap: 3rem;
   justify-content: space-evenly;
   align-items: center;
   max-width: 400px;
@@ -364,17 +364,17 @@ ul li:nth-child(4):hover span {
 
 .education-circle {
   background-color: rgb(53, 53, 53);
-  width: 85px;
-  height: 85px;
-  border-radius: 70%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .tec {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
 }
 
 .schools {
@@ -630,7 +630,28 @@ ul li:nth-child(4):hover span {
     font-size: x-large;
   }
 
-  @media screen and (min-width: 1150px) {
+  .experience-circle {
+    background-color: rgb(53, 53, 53);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience-circle-maya {
+    background-color: rgb(53, 53, 53);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+  @media screen and (min-width: 1370px) {
     .social-container {
       order: 3;
       margin-top: -5rem;
@@ -748,6 +769,32 @@ ul li:nth-child(4):hover span {
 
     .nav-item {
       font-size: 1rem;
+    }
+
+    .education-container {
+      width: 95%;
+      display: flex;
+      gap: 3rem;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 400px;
+      padding: 0rem 0 0rem;
+      margin: auto;
+    }
+
+    .education-circle {
+      background-color: rgb(53, 53, 53);
+      width: 85px;
+      height: 85px;
+      border-radius: 70%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .tec {
+      width: 90%;
+      height: 90%;
     }
   }
 
