@@ -68,7 +68,7 @@ body {
   height: 100vh;
   top: 80px;
   left: -100%;
-  padding: 1rem;
+  padding: 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
