@@ -335,6 +335,7 @@ ul li:nth-child(4):hover span {
   max-width: 800px;
   margin: 0 auto;
   color: #e7e7e7;
+  font-size: smaller;
   background-image: url(../images/icon_code2.png);
   background-repeat: no-repeat;
   background-size: 300px;
