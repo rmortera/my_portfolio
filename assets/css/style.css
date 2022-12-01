@@ -277,17 +277,19 @@ ul li:nth-child(4):hover span {
   justify-content: center;
   margin-left: 1.5rem;
   margin-top: -1.5rem;
+  flex-direction: column;
 }
 
 .slogan {
   color: #e7e7e7;
   display: flex;
   margin-left: 0rem;
-  margin-top: 10.5rem;
+  margin-top: 11rem;
   padding: 1rem;
   align-items: center;
   justify-content: center;
   position: absolute;
+  flex-direction: column;
 }
 .slogan > h3 {
   font-weight: 100;
