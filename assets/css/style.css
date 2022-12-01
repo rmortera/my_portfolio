@@ -283,7 +283,7 @@ ul li:nth-child(4):hover span {
 .slogan {
   color: #e7e7e7;
   display: flex;
-  margin-left: 0rem;
+  margin-left: -0.3rem;
   margin-top: 11rem;
   padding: 1rem;
   align-items: center;
