@@ -61,6 +61,10 @@ body {
   stroke: white;
 }
 
+.about-text {
+  line-height: 25px;
+}
+
 .nav-menu {
   background-color: #2a2a2afa;
   position: absolute;
@@ -90,10 +94,6 @@ a:hover {
 }
 
 #btn-menu:checked ~ .nav-menu {
-  left: 0;
-}
-
-#about-me:checked ~ .nav-menu {
   left: 0;
 }
 
