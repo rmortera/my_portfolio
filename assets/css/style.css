@@ -485,8 +485,8 @@ ul li:nth-child(4):hover span {
   border-bottom: 2px solid #e7e7e7;
   background-image: url("../images/anim.png");
   background-repeat: no-repeat;
-  background-size: 100px;
-  background-position: center 215px;
+  background-size: 200px;
+  background-position: center 300px;
 }
 .skills-container-animation > h2 {
   align-items: center;
@@ -656,6 +656,20 @@ ul li:nth-child(4):hover span {
 
     font-size: x-large;
   }
+
+  .skills-container-animation {
+    padding: 0rem 3rem 5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #e7e7e7;
+    font-size: small;
+    border-bottom: 2px solid #e7e7e7;
+    background-image: url("../images/anim.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position: center 320px;
+  }
+
   .frontend {
     background-color: #64f4ac;
 
