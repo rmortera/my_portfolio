@@ -486,7 +486,7 @@ ul li:nth-child(4):hover span {
   background-image: url("../images/anim.png");
   background-repeat: no-repeat;
   background-size: 200px;
-  background-position: center 300px;
+  background-position: center 380px;
 }
 .skills-container-animation > h2 {
   align-items: center;
