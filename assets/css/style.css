@@ -173,6 +173,7 @@ a:hover {
   width: 75%;
   display: flex;
   gap: 2rem;
+  padding-left: 30px;
   justify-content: center;
   align-items: center;
   max-width: 400px;
@@ -188,6 +189,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 15px;
 }
 
 .contact-container {
@@ -540,6 +542,18 @@ ul li:nth-child(3):hover span {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.img-cont img {
+  margin: 0 15px;
+}
+
+.img-cont h3 {
+  color: #e7e7e7;
+  margin-left: 15px;
+  align-items: center;
+  margin: 0 15px;
 }
 
 .img-scroll {
