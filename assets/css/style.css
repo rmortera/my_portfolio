@@ -88,6 +88,9 @@ body {
   transition: color 0.5s;
 }
 
+a {
+  color: #e7e7e7;
+}
 a:hover {
   color: #64f4ac;
   text-decoration: none;
