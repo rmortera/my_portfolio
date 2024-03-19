@@ -440,6 +440,13 @@ ul li:nth-child(3):hover span {
   margin: auto;
 }
 
+.about-skills-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px auto;
+}
+
 .backend-container {
   width: 93%;
   display: flex;
