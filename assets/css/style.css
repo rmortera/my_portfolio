@@ -385,7 +385,7 @@ ul li:nth-child(3):hover span {
   color: #e7e7e7;
   width: 93%;
   display: flex;
-  gap: 4.5rem;
+  gap: 4rem;
   justify-content: center;
   align-items: center;
   max-width: 400px;
