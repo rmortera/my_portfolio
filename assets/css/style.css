@@ -386,10 +386,10 @@ ul li:nth-child(3):hover span {
   width: 93%;
   display: flex;
   gap: 2.5rem;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   max-width: 400px;
-  padding: 0 0 0 1rem;
+  padding: 1rem 0 2rem 1rem;
   font-weight: 300;
   font-size: small;
   margin: auto;
