@@ -156,10 +156,6 @@ a:hover {
   background-image: url("..//images/3840x2160-black-solid-color-background.jpg");
 }
 
-.main-content-aboutme > p {
-  margin-top: 5rem;
-}
-
 .school-img {
   width: 70%;
   display: flex;
@@ -547,6 +543,20 @@ ul li:nth-child(3):hover span {
   box-shadow: 0 4px 8px 0 #424242, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.portfolio::-webkit-scrollbar {
+  width: 16px;
+}
+
+.portfolio::-webkit-scrollbar-track {
+  background-color: #9b9b9b;
+  border-radius: 100px;
+}
+
+.portfolio::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+  border-radius: 100px;
+}
+
 .img-cont {
   display: flex;
   flex-direction: row;
@@ -916,8 +926,8 @@ ul li:nth-child(3):hover span {
     align-items: center;
     justify-content: center;
     margin: 2rem auto;
-    height: 290px;
-    overflow-x: visible;
+    height: 20%;
+    overflow: auto;
     background-color: #141414;
     padding: 3%;
     gap: 5rem;
